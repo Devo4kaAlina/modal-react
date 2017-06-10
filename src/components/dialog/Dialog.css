@@ -1,0 +1,41 @@
+.button_close
+{
+  box-shadow: none !important;
+  position: absolute;
+  top: 34px;
+  right: 25px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.button_close  button
+{
+  background: #F0F0F0 !important;
+}
+
+.button_close  svg
+{
+  fill: #555555 !important;
+}
+
+.modal_form h3
+{
+  background: #F0F0F0;
+  padding: 15px;
+  margin: 10px;
+}
+
+.mf_body
+{
+  width: 500px !important;
+  position: relative;
+  text-align: left !important;
+}
+
+.mf_body > div
+{
+  padding: 15px;
+}
