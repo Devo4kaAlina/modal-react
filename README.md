@@ -8,12 +8,12 @@ cd modal-react
 npm i 
 ```
 
-#For open in browser  
+## For open in browser  
 
 ```sh
 npm run start
 ```
-#For open in storybook  
+## For open in storybook  
 
 ```sh
 npm run storybook
