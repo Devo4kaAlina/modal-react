@@ -10,7 +10,9 @@ import './Form.css';
 const styles = {
   pluse: {
     fill: "rgb(239, 9, 9)",
-    width: 33
+    width: 40,
+    height: 40,
+    pointerEvents: 'none'
   },
   add: {
     color: 'blue',
@@ -195,7 +197,7 @@ export class NameForm extends React.Component {
     this.upDateArr(arr)
   }
   del(event) {
-      let index = +event.target.getAttribute("tabindex"),
+      let index = +event.target.querySelector('svg').getAttribute("tabindex"),
       arr = this.state.defaultStructure;
       arr.splice(index, 1);
       this.upDateArr(arr)
